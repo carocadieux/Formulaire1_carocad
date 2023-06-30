@@ -2,7 +2,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 //import Stack from "react-bootstrap/Stack";
-import Button from "react-bootstrap/Button";
+//import Button from "react-bootstrap/Button";
+import Form from "./components/form/Form";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           </Col>
 
           <Col>
+            <Form />
           </Col>
         </Row>
 
